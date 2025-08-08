@@ -65,7 +65,7 @@ After packaging with PyInstaller, your executables will appear in the `dist/` fo
 
 To create standalone `.exe` files, run from the project root:
 
-``bash
+```bash
 pyinstaller --onefile --windowed --add-data "barcode/fonts/DejaVuSans.ttf;barcode/fonts" vendor_barcode_app.py
 ```
 
